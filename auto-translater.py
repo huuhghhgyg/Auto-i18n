@@ -59,33 +59,33 @@ front_matter_translation_rules = {
 
 # 固定字段替换规则。文章中一些固定的字段，不需要每篇都进行翻译，且翻译结果可能不一致，所以直接替换掉。
 replace_rules = [
-    {
-        # 版权信息手动翻译
-        "original_text": "> 原文地址：<https://wiki-power.com/>",
-        "replaced_text": {
-            "en": "> Original: <https://wiki-power.com/>",
-            "es": "> Dirección original del artículo: <https://wiki-power.com/>",
-            "ar": "> عنوان النص: <https://wiki-power.com/>",
-        }
-    },
-    {
-        # 版权信息手动翻译
-        "original_text": "> 本篇文章受 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议保护，转载请注明出处。",
-        "replaced_text": {
-            "en": "> This post is protected by [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.en) agreement, should be reproduced with attribution.",
-            "es": "> Este artículo está protegido por la licencia [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh). Si desea reproducirlo, por favor indique la fuente.",
-            "ar": "> يتم حماية هذا المقال بموجب اتفاقية [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh)، يُرجى ذكر المصدر عند إعادة النشر.",
-        }
-    },
-    {
-        # 文章中的站内链接，跳转为当前相同语言的网页
-        "original_text": "](https://wiki-power.com/",
-        "replaced_text": {
-            "en": "](https://wiki-power.com/en/",
-            "es": "](https://wiki-power.com/es/",
-            "ar": "](https://wiki-power.com/ar/",
-        }
-    }
+    # {
+    #     # 版权信息手动翻译
+    #     "original_text": "> 原文地址：<https://wiki-power.com/>",
+    #     "replaced_text": {
+    #         "en": "> Original: <https://wiki-power.com/>",
+    #         "es": "> Dirección original del artículo: <https://wiki-power.com/>",
+    #         "ar": "> عنوان النص: <https://wiki-power.com/>",
+    #     }
+    # },
+    # {
+    #     # 版权信息手动翻译
+    #     "original_text": "> 本篇文章受 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议保护，转载请注明出处。",
+    #     "replaced_text": {
+    #         "en": "> This post is protected by [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.en) agreement, should be reproduced with attribution.",
+    #         "es": "> Este artículo está protegido por la licencia [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh). Si desea reproducirlo, por favor indique la fuente.",
+    #         "ar": "> يتم حماية هذا المقال بموجب اتفاقية [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh)، يُرجى ذكر المصدر عند إعادة النشر.",
+    #     }
+    # },
+    # {
+    #     # 文章中的站内链接，跳转为当前相同语言的网页
+    #     "original_text": "](https://wiki-power.com/",
+    #     "replaced_text": {
+    #         "en": "](https://wiki-power.com/en/",
+    #         "es": "](https://wiki-power.com/es/",
+    #         "ar": "](https://wiki-power.com/ar/",
+    #     }
+    # }
     # {
     #    # 不同语言可使用不同图床
     #    "original_text": "![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/",
@@ -97,38 +97,38 @@ replace_rules = [
 
 # Front Matter 固定字段替换规则。
 front_matter_replace_rules = [
-    {
-        "original_text": "类别 1",
-        "replaced_text": {
-            "en": "Categories 1",
-            "es": "Categorías 1",
-            "ar": "الفئة 1",
-        }
-    },
-    {
-        "original_text": "类别 2",
-        "replaced_text": {
-            "en": "Categories 2",
-            "es": "Categorías 2",
-            "ar": "الفئة 2",
-        }
-    },
-    {
-        "original_text": "标签 1",
-        "replaced_text": {
-            "en": "Tags 1",
-            "es": "Etiquetas 1",
-            "ar": "بطاقة 1",
-        }
-    },
-    {
-        "original_text": "标签 2",
-        "replaced_text": {
-            "en": "Tags 2",
-            "es": "Etiquetas 2",
-            "ar": "بطاقة 2",
-        }
-    },
+    # {
+    #     "original_text": "类别 1",
+    #     "replaced_text": {
+    #         "en": "Categories 1",
+    #         "es": "Categorías 1",
+    #         "ar": "الفئة 1",
+    #     }
+    # },
+    # {
+    #     "original_text": "类别 2",
+    #     "replaced_text": {
+    #         "en": "Categories 2",
+    #         "es": "Categorías 2",
+    #         "ar": "الفئة 2",
+    #     }
+    # },
+    # {
+    #     "original_text": "标签 1",
+    #     "replaced_text": {
+    #         "en": "Tags 1",
+    #         "es": "Etiquetas 1",
+    #         "ar": "بطاقة 1",
+    #     }
+    # },
+    # {
+    #     "original_text": "标签 2",
+    #     "replaced_text": {
+    #         "en": "Tags 2",
+    #         "es": "Etiquetas 2",
+    #         "ar": "بطاقة 2",
+    #     }
+    # },
 ]
 
 ##############################
@@ -371,33 +371,14 @@ try:
                 processed_list_content = f.read()
 
             if marker_force_translate in md_content:  # 如果有强制翻译的标识，则执行这部分的代码
-                if marker_written_in_srclang in md_content:  # 翻译为除源语言之外的语言
-                    print(
-                        f"Pass the force translation({lang_target}-{lang_target}): ",
-                        filename,
-                    )
-                    sys.stdout.flush()
-
-                    # 翻译为目标语言
-                    for lang in lang_target:
-                        translate_file(input_file, filename, lang)
-                        
-                else:  # 翻译为所有语言
-                    for lang in lang_target + [lang_source]:
-                        translate_file(input_file, filename, lang)
-
+                for lang in lang_target:
+                    translate_file(input_file, filename, lang)
             elif filename in exclude_list:  # 不进行翻译
                 print(f"Pass the post in exclude_list: {filename}")
                 sys.stdout.flush()
             elif filename in processed_list_content:  # 不进行翻译
                 print(f"Pass the post in processed_list: {filename}")
                 sys.stdout.flush()
-            # old 判断后才翻译为目标语言
-            # elif marker_written_in_srclang in md_content:  # 翻译为除源语言之外的语言
-            #     print(f"Pass the {lang_source}-{lang_source} translation: {filename}")
-            #     sys.stdout.flush()
-            #     for lang in lang_target:
-            #         translate_file(input_file, filename, lang)
             else:  # 翻译为目标语言
                 for lang in lang_target:
                     translate_file(input_file, filename, lang)
