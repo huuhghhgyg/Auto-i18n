@@ -61,7 +61,7 @@ front_matter_translation_rules = {
 replace_rules = [
     {
         # 版权信息手动翻译
-        "orginal_text": "> 原文地址：<https://wiki-power.com/>",
+        "original_text": "> 原文地址：<https://wiki-power.com/>",
         "replaced_text": {
             "en": "> Original: <https://wiki-power.com/>",
             "es": "> Dirección original del artículo: <https://wiki-power.com/>",
@@ -70,7 +70,7 @@ replace_rules = [
     },
     {
         # 版权信息手动翻译
-        "orginal_text": "> 本篇文章受 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议保护，转载请注明出处。",
+        "original_text": "> 本篇文章受 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议保护，转载请注明出处。",
         "replaced_text": {
             "en": "> This post is protected by [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.en) agreement, should be reproduced with attribution.",
             "es": "> Este artículo está protegido por la licencia [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh). Si desea reproducirlo, por favor indique la fuente.",
@@ -79,7 +79,7 @@ replace_rules = [
     },
     {
         # 文章中的站内链接，跳转为当前相同语言的网页
-        "orginal_text": "](https://wiki-power.com/",
+        "original_text": "](https://wiki-power.com/",
         "replaced_text": {
             "en": "](https://wiki-power.com/en/",
             "es": "](https://wiki-power.com/es/",
@@ -98,7 +98,7 @@ replace_rules = [
 # Front Matter 固定字段替换规则。
 front_matter_replace_rules = [
     {
-        "orginal_text": "类别 1",
+        "original_text": "类别 1",
         "replaced_text": {
             "en": "Categories 1",
             "es": "Categorías 1",
@@ -106,7 +106,7 @@ front_matter_replace_rules = [
         }
     },
     {
-        "orginal_text": "类别 2",
+        "original_text": "类别 2",
         "replaced_text": {
             "en": "Categories 2",
             "es": "Categorías 2",
@@ -114,7 +114,7 @@ front_matter_replace_rules = [
         }
     },
     {
-        "orginal_text": "标签 1",
+        "original_text": "标签 1",
         "replaced_text": {
             "en": "Tags 1",
             "es": "Etiquetas 1",
@@ -122,7 +122,7 @@ front_matter_replace_rules = [
         }
     },
     {
-        "orginal_text": "标签 2",
+        "original_text": "标签 2",
         "replaced_text": {
             "en": "Tags 2",
             "es": "Etiquetas 2",
