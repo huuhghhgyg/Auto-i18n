@@ -15,7 +15,7 @@ max_length = 1800
 
 # 作业属性
 lang_source = "en"
-lang_target = ["zh"]
+lang_target = ["zh","es","ar"]
 input(f"[Confirm] translate from {lang_source} to {lang_target}")
 
 # 预定义语言代号字典
